@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Mary Moo",
+    "email":"mm@madeup.com",
+    "cell":"924-964-9999",
+    "birthday":"01/02/03",
+    "state":"California",
+    "id":1
+    },
+  {
+    "name": "Bantam Bill",
+    "email":"bb@justkidding.org",
+    "cell":"354-564-4645",
+    "birthday":"09/08/07",
+    "state":"Michigan",
+    "id":2
+  },
+  
+  {
+    "name": "Jerry Jo",
+    "email":"jj@whoknowswhy.com",
+    "cell":"865-453-8565",
+    "birthday":"04/05/06",
+    "state":"Michigan",
+    "id":3
+    }
+]
