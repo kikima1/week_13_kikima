@@ -20,7 +20,7 @@ export async function getStaticPaths() {
   };
 }
 
-//React component to display all details 
+//added extra item data from list one which had changed data from second JSON object 
 export default function Entry({ itemData }) {
   return (
     <Layout>
@@ -29,9 +29,11 @@ export default function Entry({ itemData }) {
           <h5 className="card-title">{itemData.name}</h5>
           <h6 className="card-subtitle mb-2 text-muted">{itemData.phone}</h6>
           <p className="card-text">{itemData.birthdate}</p>
+          <p className="card-text">{itemData.name2}</p>
           <a href={'mailto:' + itemData.email} className="card-link">{itemData.email}</a>
         </div>
       </article>
     </Layout>
   );
+ 
 }

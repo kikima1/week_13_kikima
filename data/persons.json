@@ -1,26 +1,29 @@
 [
   { 
-    "name": "Jane Coder",
-    "email": "jane@coder.com",
+    "name": "Jane Howareyou",
+    "email": "jane@idon'tknow.com",
     "phone": "800-456-1234",
-    "birthdate": "04/01/2020",
+    "birthdate": "9/09/1999",
     "state":"California",
-    "id": 5
+    "name2":"oof",
+    "id": 1
   },
   { 
-    "name": "Data Person",
-    "email": "data@person.com",
+    "name": "Keller Friendly",
+    "email": "keller@dontwannabenice.com",
     "phone": "800-123-4567",
-    "birthdate": "01/02/2001",
+    "birthdate": "01/02/1999",
     "state":"Michigan",
-    "id": 6
+    "name2":"oof",
+    "id": 2
   },
   { 
-    "name": "George Scripter",
-    "email": "george@scripter.com",
-    "phone": "800-876-3090",
-    "birthdate": "12/01/2010",
+    "name": "Rando Mando",
+    "email": "rando@nicetunes.com",
+    "phone": "999-555-3090",
+    "birthdate": "12/01/1959",
     "state":"California",
-    "id": 7
+    "name2":"oof",
+    "id": 3
   }
 ]
