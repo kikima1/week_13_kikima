@@ -6,6 +6,8 @@
     "birthdate": "9/09/1999",
     "state":"California",
     "name2":"oof",
+    "email2":"holder",
+
     "id": 1
   },
   { 
@@ -15,6 +17,8 @@
     "birthdate": "01/02/1999",
     "state":"Michigan",
     "name2":"oof",
+    "email2":"holder",
+
     "id": 2
   },
   { 
@@ -24,6 +28,8 @@
     "birthdate": "12/01/1959",
     "state":"California",
     "name2":"oof",
+    "email2":"holder",
+
     "id": 3
   }
 ]
