@@ -1,0 +1,20 @@
+[
+  {
+    "self_id":1,
+    "besty_id":[2],
+    "friends_id":[ 3],
+    "id":1
+  },
+  {
+    "self_id":2,
+    "besty_id":[3],
+    "friends_id":[1],
+    "id":1
+  },
+  {
+    "self_id":3,
+    "besty_id":[1],
+    "friends_id":[1],
+    "id":2
+  }
+]
