@@ -14,7 +14,7 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
-  const paths = getAllIds();
+  const paths = await getAllIds();
   return {
     paths,
     fallback: false
@@ -26,15 +26,18 @@ export default function Entry({ itemData }) {
   return (
     <Layout>
       <article className="card col-6">
-      <h2>Person Details</h2>
+      <h2>Post Details</h2>
         <div className="card-body">
-          <h5 className="card-title">{itemData.name}</h5>
-          <h6 className="card-subtitle mb-2 text-muted">{itemData.phone}</h6>
-          <p className="card-text">{itemData.birthdate}</p>
+          <h5 className="card-title">Post Title: "{itemData.post_title}"</h5>
+          {/*<h6 className="card-subtitle mb-2 text-muted">{itemData.post_name}</h6>*/}
+          <h6 className="card-subtitle mb-2 text-muted">Post Date/Time: {itemData.post_date}</h6>
+          
+          {/*<p className="card-text">{itemData.birthdate}</p>
           <a href={'mailto:' + itemData.email} className="card-link">{itemData.email}</a>
+        </div>*/}
         </div>
       </article>
-      <h2> Best Friend</h2>
+      {/*<h2> Best Friend</h2>
       <div className="list-group col-6">
       {itemData.best ?
       itemData.best.map(
@@ -71,8 +74,8 @@ export default function Entry({ itemData }) {
         )
       )
       :null
-      }
-      </div>
+      }*/}
+      
     </Layout>
   );
 }

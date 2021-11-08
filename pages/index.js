@@ -4,7 +4,7 @@ import Layout from '../components/layout';
 import { getSortedList } from '../lib/data';
 
 export async function getStaticProps() {
-  const allData = getSortedList();
+  const allData = await getSortedList();
   return {
     props: {
       allData
@@ -16,7 +16,8 @@ export async function getStaticProps() {
 export default function Home({ allData }) {
   return (
       <Layout home>
-        <h1>List of Names</h1>
+        <h1>List of Posts from WordPress
+        </h1>
         <div className="list-group">
           {allData.map(({ id, name }) => (
             <Link key={id} href={`/${id}`}>
