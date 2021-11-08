@@ -28,7 +28,7 @@ export default function Entry({ itemData }) {
       <article className="card col-6">
       <h2>Post Details</h2>
         <div className="card-body">
-          <h5 className="card-title">Post Title: "{itemData.post_title}"</h5>
+          <h5 className="card-title">Post Title: {itemData.post_title}</h5>
           {/*<h6 className="card-subtitle mb-2 text-muted">{itemData.post_name}</h6>*/}
           <h6 className="card-subtitle mb-2 text-muted">Post Date/Time: {itemData.post_date}</h6>
           
