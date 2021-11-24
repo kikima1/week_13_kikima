@@ -29,53 +29,17 @@ export default function Entry({ itemData }) {
       <h2>Post Details</h2>
         <div className="card-body">
           <h5 className="card-title">Post Title: {itemData.post_title}</h5>
-          {/*<h6 className="card-subtitle mb-2 text-muted">{itemData.post_name}</h6>*/}
-          <h6 className="card-subtitle mb-2 text-muted">Post Date/Time: {itemData.post_date}</h6>
-          
+          <h6 className="card-subtitle mb-2 text-muted">User login: {itemData.user_login}</h6>
+          <h6 className="card-subtitle mb-2 text-muted">User email: {itemData.user_email}</h6>
+          <div className="card-text" dangerouslySetInnerHTML={{ __html:itemData.post_content}} />
           {/*<p className="card-text">{itemData.birthdate}</p>
           <a href={'mailto:' + itemData.email} className="card-link">{itemData.email}</a>
         </div>*/}
         </div>
       </article>
-      {/*<h2> Best Friend</h2>
-      <div className="list-group col-6">
-      {itemData.best ?
-      itemData.best.map(
-        ({id, name})=>(
-          <Link key={id} href={`/${id}`}>
-          <a className= "list-group-item list-group-item-action">{name}</a>
-          </Link>
-        )
-      )
-      :null
-      }
-      </div>
-      <h2> Related Persons</h2>
-      <div className="list-group col-6">
-      {itemData.related ?
-      itemData.related.map(
-        ({id, name})=>(
-          <Link key={id} href={`/${id}`}>
-          <a className= "list-group-item list-group-item-action">{name}</a>
-          </Link>
-        )
-      )
-      :null
-      }
-      </div>
-       <h2> More Related Persons from Second JSON object</h2>
-      <div className="list-group col-6">
-      {itemData.more_related ?
-      itemData.more_related.map(
-        ({id, name})=>(
-          <Link key={id} href={`/${id}`}>
-          <a className= "list-group-item list-group-item-action">{name}</a>
-          </Link>
-        )
-      )
-      :null
-      }*/}
+      
       
     </Layout>
   );
 }
+
